@@ -21,7 +21,7 @@
         </p>
         <div class="hero-actions">
             <a href="{{ url_for('register') }}" class="btn-primary">Create free account</a>
-            <a href="#" class="btn-secondary">See how it works</a>
+            <a href="#" id="open-video-modal" class="btn-secondary">See how it works</a>
         </div>
     </div>
     <div class="hero-visual">
@@ -67,6 +67,15 @@
         </div>
     </div>
 </section>
+
+<div id="video-modal-overlay" class="video-modal-overlay" hidden>
+    <div class="video-modal" role="dialog" aria-modal="true" aria-label="Watch Spendly demo">
+        <button id="close-video-modal" class="video-modal-close" aria-label="Close video modal">×</button>
+        <div class="video-modal-content">
+            <iframe id="video-modal-iframe" src="" title="Spendly demo video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
 
 <section class="features">
     <div class="features-inner">

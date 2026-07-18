@@ -4,9 +4,9 @@
       "name": "Default",
       "files": [
         "static/css/landing.css",
-        ".vscode/changelists.json",
         "templates/landing.html",
-        "file.txt"
+        "static/js/main.js",
+        ".vscode/changelists.json"
       ]
     }
   ],
