@@ -1,0 +1,16 @@
+{
+  "changelists": [
+    {
+      "name": "Default",
+      "files": [
+        ".vscode/changelists.json",
+        "templates/terms.html",
+        "app.py",
+        "templates/base.html",
+        "file.txt",
+        "static/css/style.css"
+      ]
+    }
+  ],
+  "active": "Default"
+}
