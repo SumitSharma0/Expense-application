@@ -3,12 +3,11 @@
     {
       "name": "Default",
       "files": [
+        "templates/privacy.html",
         ".vscode/changelists.json",
-        "templates/terms.html",
-        "app.py",
         "templates/base.html",
-        "file.txt",
-        "static/css/style.css"
+        "app.py",
+        "file.txt"
       ]
     }
   ],
